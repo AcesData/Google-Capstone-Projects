@@ -17,7 +17,7 @@ def converttimehhmmss(sec):
     return hhmmss
 
 def read_data():
-    df1=pd.read_csv('Docs/202004-divvy-tripdata.csv')
+    df1=pd.read_csv('RawData/202004-divvy-tripdata.csv')
     df=df1
     # df2=pd.read_csv('Docs/202005-divvy-tripdata.csv')
     # df3=pd.read_csv('Docs/202006-divvy-tripdata.csv')
